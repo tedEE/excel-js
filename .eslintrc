@@ -5,10 +5,18 @@
     "browser": true,
     "node": true
   },
+   "globals": {
+    "window" : true,
+    "document" : true,
+    "console" : true
+	},
   "rules": {
     "semi": "off",
     "arrow-parens": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "linebreak-style": "off",
+    "max-len": "off",
+    "no-console": "off"
   },
   "extends": [
     "eslint:recommended", "google"
